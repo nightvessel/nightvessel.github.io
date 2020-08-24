@@ -1,77 +1,41 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: Néel-type skyrmion in WTe<sub>2</sub>/Fe<sub>3</sub>GeTe<sub>2</sub> heterostructure
+description: Néel-type skyrmion lattice has been observed in this structure at temperatures up to 195 K
+img: /assets/img/skyr-lattice.jpg
 importance: 2
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Topological Hall effect has been observed under 100 K. Néel-type skyrmion lattice and the stripe-like magnetic domain structures are induced at the interface. The skyrmion size is estimated to be 150 nm at 94 K and 80 nm at 198 K. This interfacial coupling induced Dzyaloshinskii-Moriya interaction (DMI) is calculated from the domain width and has a large energy of 1.0 mJm<sup>-2</sup>.  
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+For more information, please refer to our paper: Wu, Yingying, et al. "Néel-type skyrmion in WTe<sub>2</sub>/Fe<sub>3</sub>GeTe<sub>2</sub> van der Waals heterostructure." Nature Communications 11, 3860(2020) [Read More](https://www.nature.com/articles/s41467-020-17566-x)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/structure.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/the-1.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/the-2.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left is the schematic structure for WTe<sub>2</sub> on Fe<sub>3</sub>GeTe<sub>2</sub>. Middle is the topological Hall effect under 100 K observed for sample A. Right is the Hall effect for sample B with thicker Fe<sub>3</sub>GeTe<sub>2</sub> and this stepped magnetic transition is related to the labyrinth domains. 
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/skyrmion.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Observed skyrmion lattice observed from the WTe<sub>2</sub>/Fe<sub>3</sub>GeTe<sub>2</sub> interface. Micro-simulation indicates a finite penetration of the interfacial DMI. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+This is the first and direct observation of skyrmions in vdW heterostructures, which can help promote 2D materials for ultra-compact spintronic devices. 
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
